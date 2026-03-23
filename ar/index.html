@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>نظّم حضورك الرقمي — تجارب احترافية لصنّاع المحتوى</title>
+    <meta name="description"
+        content="نساعد صنّاع المحتوى والمؤثرين على تنظيم ما يقدّمونه بالفعل — لخلق تجربة واضحة لمجتمعهم وتحقيق دخل طبيعي." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+    <nav class="nav" id="nav">
+        <div class="nav__container">
+            <a href="#" class="nav__logo">Structure<span class="accent">.</span></a>
+            <button class="nav__toggle" id="navToggle" aria-label="القائمة">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav__links" id="navLinks">
+                <li><a href="#problem">لماذا</a></li>
+                <li><a href="#solution">كيف</a></li>
+                <li><a href="#pricing">العروض</a></li>
+                <li><a href="#why-it-matters">الأثر</a></li>
+                <li><a href="#contact" class="nav__cta">تواصل معنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════ -->
+    <header class="hero" id="hero">
+        <div class="hero__bg-glow"></div>
+        <div class="container">
+            <div class="hero__content reveal">
+                <p class="hero__tag">لصنّاع المحتوى الذين يقدّمون قيمة حقيقية</p>
+                <h1 class="hero__title">
+                    جمهورك يستمع إليك.<br />
+                    امنحهم <span class="gradient-text">مكاناً واضحاً</span> ليجدوك.
+                </h1>
+                <p class="hero__subtitle">
+                    أنت تشارك محتوى رائعاً بالفعل. نحن نساعدك على تنظيمه في تجربة
+                    احترافية ومتكاملة — حتى يعرف مجتمعك بالضبط كيف يدعم عملك.
+                </p>
+                <div class="hero__actions">
+                    <a href="#pricing" class="btn btn--primary">اكتشف العروض</a>
+                    <a href="#solution" class="btn btn--ghost">شاهد كيف يعمل</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll-hint">
+            <span>مرّر</span>
+            <div class="hero__scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- ═══════════════════════════════════════════
+       PROBLEM
+  ═══════════════════════════════════════════ -->
+    <section class="section problem" id="problem">
+        <div class="container">
+            <div class="section__header reveal">
+                <p class="section__tag">الواقع</p>
+                <h2 class="section__title">تقدّم الكثير من القيمة.<br />لكن شيئاً ما يبدو <span
+                        class="gradient-text">غير منظّم</span>.</h2>
+                <p class="section__subtitle">
+                    تجيب على نفس الأسئلة. تدير كل شيء في الرسائل الخاصة.
+                    والأشخاص الذين يريدون المزيد لا يعرفون دائماً كيف.
+                </p>
+            </div>
+            <div class="problem__grid">
+                <div class="problem__card reveal">
+                    <div class="problem__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                        </svg>
+                    </div>
+                    <h3>كل شيء يحدث في الرسائل الخاصة</h3>
+                    <p>المحادثات المهمة تضيع. جمهورك يتواصل معك، لكن نصف الرسائل تختفي في الزحام.</p>
+                </div>
+                <div class="problem__card reveal">
+                    <div class="problem__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v6l4 2" />
+                        </svg>
+                    </div>
+                    <h3>تكرّر نفسك باستمرار</h3>
+                    <p>تجيب على نفس الأسئلة — عن خدماتك، طريقة عملك، مواعيدك — مراراً وتكراراً.</p>
+                </div>
+                <div class="problem__card reveal">
+                    <div class="problem__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+                            <line x1="12" y1="9" x2="12" y2="13" />
+                            <line x1="12" y1="17" x2="12.01" y2="17" />
+                        </svg>
+                    </div>
+                    <h3>الناس تريد دعمك — لكن لا تعرف كيف</h3>
+                    <p>مجتمعك متفاعل، لكن بدون هيكل واضح، لا يستطيعون بسهولة رؤية كيف يمكنهم العمل معك أو الاستثمار في
+                        خبرتك.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+       SOLUTION
+  ═══════════════════════════════════════════ -->
+    <section class="section solution" id="solution">
+        <div class="container">
+            <div class="solution__layout">
+                <div class="solution__text reveal">
+                    <p class="section__tag">النهج</p>
+                    <h2 class="section__title">مساحة واضحة لمجتمعك.<br /><span class="gradient-text">امتداد طبيعي لما
+                            أنت عليه.</span></h2>
+                    <p class="solution__description">
+                        نحن لا نغيّر ما تفعله. نحن نمنحه هيكلاً. صفحة مصمّمة باحترافية
+                        تعرض عملك وخبرتك وعالمك — بطريقة طبيعية تسهّل على مجتمعك اتخاذ الخطوة التالية.
+                    </p>
+                    <ul class="solution__list">
+                        <li>
+                            <div class="solution__check">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>عرضك، منظّم بوضوح</strong>
+                                <span>لا مزيد من الشرح في الرسائل الخاصة. صفحة واحدة تقول كل شيء.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="solution__check">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>تجربة موجّهة لجمهورك</strong>
+                                <span>الناس يفهمون ما تقدّمه، كيف يعمل، وكيف يتواصلون معك.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="solution__check">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>دخل يأتي بشكل طبيعي</strong>
+                                <span>عندما يرى الناس القيمة بوضوح، يريدون بشكل طبيعي أن يكونوا جزءاً منها.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="solution__visual reveal">
+                    <div class="solution__mockup">
+                        <div class="mockup__bar">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="mockup__content">
+                            <div class="mockup__line mockup__line--title"></div>
+                            <div class="mockup__line mockup__line--subtitle"></div>
+                            <div class="mockup__block"></div>
+                            <div class="mockup__line mockup__line--text"></div>
+                            <div class="mockup__line mockup__line--text mockup__line--short"></div>
+                            <div class="mockup__btn"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+       PRICING / OFFERS
+  ═══════════════════════════════════════════ -->
+    <section class="section pricing" id="pricing">
+        <div class="container">
+            <div class="section__header reveal">
+                <p class="section__tag">اختر مسارك</p>
+                <h2 class="section__title">ثلاث طرق لمنح مجتمعك<br /><span class="gradient-text">التجربة التي
+                        يستحقّها</span></h2>
+                <p class="section__subtitle">
+                    كل خيار مصمّم لمساعدتك على عرض عملك بوضوح واحترافية —
+                    حتى يتفاعل جمهورك معك بشروطك.
+                </p>
+            </div>
+
+            <div class="pricing__grid">
+
+                <!-- STARTER -->
+                <div class="pricing__card reveal" id="pack-starter">
+                    <div class="pricing__card-inner">
+                        <p class="pricing__label">المبتدئ</p>
+                        <h3 class="pricing__name">حضور واضح</h3>
+                        <p class="pricing__description">لصنّاع المحتوى المستعدين لعرض عملهم باحترافية من خلال صفحة نظيفة
+                            ومنظّمة.</p>
+                        <div class="pricing__price">
+                            <span class="pricing__amount">€297</span>
+                            <span class="pricing__period">دفعة واحدة</span>
+                        </div>
+                        <ul class="pricing__features">
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                صفحة هبوط من صفحة واحدة
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                هيكل واضح لعرضك
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                كتابة محتوى جذّابة ومدروسة
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                دعوة واضحة لاتخاذ إجراء
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                تصميم متجاوب مع الجوال
+                            </li>
+                        </ul>
+                        <a href="#contact" class="btn btn--outline pricing__cta">ابدأ الآن</a>
+                    </div>
+                </div>
+
+                <!-- ADVANCED -->
+                <div class="pricing__card pricing__card--featured reveal" id="pack-advanced">
+                    <div class="pricing__badge">الأكثر طلباً</div>
+                    <div class="pricing__card-inner">
+                        <p class="pricing__label">المتقدّم</p>
+                        <h3 class="pricing__name">تجربة موجّهة</h3>
+                        <p class="pricing__description">لصنّاع المحتوى الذين يريدون مساراً منظّماً من فضول الجمهور إلى
+                            تواصل حقيقي.</p>
+                        <div class="pricing__price">
+                            <span class="pricing__amount">€597</span>
+                            <span class="pricing__period">دفعة واحدة</span>
+                        </div>
+                        <ul class="pricing__features">
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                كل ما في الباقة الأساسية
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                هيكل عرض محسّن ومرتّب
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                تدفّق تواصل موجّه
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                استراتيجية دعوات الإجراء
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                سيناريو محادثة وتدفّق رسائل
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                مسار واضح من الصفحة إلى التواصل
+                            </li>
+                        </ul>
+                        <a href="#contact" class="btn btn--primary pricing__cta">اختر هذا المسار</a>
+                    </div>
+                </div>
+
+                <!-- AI EXPERIENCE -->
+                <div class="pricing__card reveal" id="pack-ai">
+                    <div class="pricing__card-inner">
+                        <p class="pricing__label">تجربة الذكاء الاصطناعي</p>
+                        <h3 class="pricing__name">حضور ذكي</h3>
+                        <p class="pricing__description">لصنّاع المحتوى الذين يريدون أن يُدار جزء من تفاعل الجمهور
+                            تلقائياً — دون فقدان اللمسة الإنسانية.</p>
+                        <div class="pricing__price">
+                            <span class="pricing__amount">€997</span>
+                            <span class="pricing__period">دفعة واحدة</span>
+                        </div>
+                        <ul class="pricing__features">
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                كل ما في الباقة المتقدّمة
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                ردود تلقائية على الأسئلة الشائعة
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                تأهيل ذكي للجمهور بالذكاء الاصطناعي
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                اقتراحات عروض ذكية
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                دعم التفاعلات البسيطة مع الجمهور
+                            </li>
+                        </ul>
+                        <a href="#contact" class="btn btn--outline pricing__cta">استكشف هذا الخيار</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+       WHY IT MATTERS
+  ═══════════════════════════════════════════ -->
+    <section class="section why" id="why-it-matters">
+        <div class="container">
+            <div class="section__header reveal">
+                <p class="section__tag">الصورة الأكبر</p>
+                <h2 class="section__title">ليست مجرّد صفحة.<br />إنها طريقة أفضل <span class="gradient-text">لتقدير
+                        عملك</span>.</h2>
+            </div>
+            <div class="why__grid">
+                <div class="why__card reveal">
+                    <div class="why__number">٠١</div>
+                    <h3>تجربة أفضل لمجتمعك</h3>
+                    <p>جمهورك يحصل على مساحة واضحة وجميلة لاكتشاف ما تقدّمه — بدون تخمين أو البحث في الرسائل الخاصة.</p>
+                </div>
+                <div class="why__card reveal">
+                    <div class="why__number">٠٢</div>
+                    <h3>وضوح أكبر لعملك</h3>
+                    <p>عندما يكون عرضك منظّماً بوضوح، الناس يفهمون فوراً قيمة خبرتك وتوجيهاتك.</p>
+                </div>
+                <div class="why__card reveal">
+                    <div class="why__number">٠٣</div>
+                    <h3>تنظيم أفضل لوقتك</h3>
+                    <p>توقّف عن تكرار نفسك. صفحة مصمّمة بعناية تتولّى الشرح، حتى تركّز أنت على الإبداع.</p>
+                </div>
+                <div class="why__card reveal">
+                    <div class="why__number">٠٤</div>
+                    <h3>طريقة أفضل لتقدير وقتك</h3>
+                    <p>معرفتك لها قيمة حقيقية. الهيكل الصحيح يسهّل على مجتمعك التعرّف على هذه القيمة ودعمها.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+       FINAL CTA
+  ═══════════════════════════════════════════ -->
+    <section class="section cta-section" id="contact">
+        <div class="container">
+            <div class="cta-section__content reveal">
+                <p class="section__tag">مستعد؟</p>
+                <h2 class="cta-section__title">لنمنح مجتمعك<br />التجربة التي يستحقّها.</h2>
+                <p class="cta-section__text">
+                    بدون ضغط. بدون بيع مباشر. مجرّد محادثة عن كيف يمكننا
+                    مساعدتك في عرض عملك بوضوح واحترافية.
+                </p>
+                <div class="cta-section__actions">
+                    <a href="https://wa.me/YOUR_NUMBER" class="btn btn--primary btn--large" target="_blank"
+                        rel="noopener" id="cta-whatsapp">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        تواصل عبر واتساب
+                    </a>
+                    <a href="mailto:hello@yourdomain.com" class="btn btn--ghost btn--large" id="cta-email">
+                        أو أرسل بريداً إلكترونياً
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Structure<span class="accent">.</span></a>
+                <p class="footer__text">نساعد صنّاع المحتوى على عرض عملهم بوضوح واحترافية.</p>
+                <p class="footer__copy">&copy; ٢٠٢٦ Structure. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
